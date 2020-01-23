@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "DumbCharades.api": {
+    "DumbCharades.Api": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "swagger",

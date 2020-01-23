@@ -1,6 +1,11 @@
+// <copyright file="WeatherForecast.cs" company="Cypress Org">
+//     Cypress Org. All rights reserved. 
+// </copyright>
+// <author>Sai Krishna Podduturi</author>
+
 using System;
 
-namespace DumbCharades.api
+namespace DumbCharades.Api
 {
     public class WeatherForecast
     {

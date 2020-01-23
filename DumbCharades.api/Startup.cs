@@ -1,18 +1,16 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+// <copyright file="Startup.cs" company="Cypress Org">
+//     Cypress Org. All rights reserved. 
+// </copyright>
+// <author>Sai Krishna Podduturi</author>
+
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
-namespace DumbCharades.api
+namespace DumbCharades.Api
 {
     public class Startup
     {
@@ -28,10 +26,10 @@ namespace DumbCharades.api
         {
             services.AddControllers();
 
-            //Swagger generator register
+            // Swagger generator register
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("V1", new OpenApiInfo(){ Title = "DumbCharades", Version = "v1"});
+                c.SwaggerDoc("V1", new OpenApiInfo() { Title = "DumbCharades", Version = "v1" });
             });
         }
 
@@ -61,7 +59,5 @@ namespace DumbCharades.api
                 endpoints.MapControllers();
             });
         }
-
-
     }
 }
