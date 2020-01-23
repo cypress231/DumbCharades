@@ -1,3 +1,8 @@
+// <copyright file="Program.cs" company="Cypress Org">
+//     Cypress Org. All rights reserved. 
+// </copyright>
+// <author>Sai Krishna Podduturi</author>
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace DumbCharades.api
+namespace DumbCharades.Api
 {
     public class Program
     {
